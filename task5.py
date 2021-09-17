@@ -13,3 +13,14 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+import math
+
+volume = input("Please enter a volume for a sphere:")
+
+volume = float(volume)
+
+radius = (3 * volume / (4 * 3.141592653589793))**1.0/3
+
+print(radius)
+

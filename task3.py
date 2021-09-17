@@ -12,3 +12,15 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = input("Please enter variable a:")
+b = input("Please enter variable b:")
+c = input("Please enter variable c:")
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+x = (c - b) / a
+
+print(x)

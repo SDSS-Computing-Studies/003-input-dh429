@@ -13,3 +13,15 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+
+from math import sqrt
+
+sidea = input("Please enter the length of 1 side of a triangle:")
+sideb = input("Please enter another side length of a triangle:")
+
+sidea = int(sidea)
+sideb = int(sideb)
+
+hyp = sqrt(sidea * sidea + sideb * sideb)
+
+print(hyp)
