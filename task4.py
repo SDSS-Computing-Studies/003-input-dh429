@@ -16,8 +16,8 @@
 
 from math import sqrt
 
-sidea = input("Please enter the length of 1 side of a triangle:")
-sideb = input("Please enter another side length of a triangle:")
+sidea = input("Please enter the length of 1 side of a triangle:").strip()
+sideb = input("Please enter another side length of a triangle:").strip()
 
 sidea = int(sidea)
 sideb = int(sideb)
