@@ -14,7 +14,7 @@
 
 import math
 
-radius = input("Enter the radius of a sphere. ")
+radius = input("Enter the radius of a sphere. ").strip
 
 radius = int(radius)
 
