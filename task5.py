@@ -20,8 +20,7 @@ volume = input("Please enter a volume for a sphere:")
 
 volume = float(volume)
 
-radius = (3 * volume / (4 * 3.141592653589793))**1.0/3
-radius = round(radius, 4)
+radius = (3 * volume / (4 * 3.141592653589793))**0.33333333333
 
 print(radius)
 
