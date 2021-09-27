@@ -14,9 +14,9 @@
 
 import math
 
-radius = input("Enter the radius of a sphere. ").strip()
+radius = input("Enter the radius of a sphere. ")
 
-radius = int(radius)
+radius = float(radius)
 
 volume = 4/3 * 3.141592653589793 * radius ** 3
 
